@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="558.0" prefWidth="442.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.Controller">
+   <children>
+      <Label layoutX="40.0" layoutY="34.0" text="Add Apartment">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="38.0" layoutY="78.0" text="Street name" />
+      <Label layoutX="40.0" layoutY="123.0" text="City" />
+      <Label layoutX="37.0" layoutY="169.0" text="Province" />
+      <Label layoutX="33.0" layoutY="212.0" text="Post code" />
+      <Label layoutX="34.0" layoutY="261.0" text="Unit number" />
+      <Label layoutX="35.0" layoutY="308.0" text="Number of bathroom" />
+      <Label layoutX="37.0" layoutY="354.0" text="Number of bedroom" />
+      <Label layoutX="37.0" layoutY="398.0" text="Square footage" />
+      <Label layoutX="38.0" layoutY="441.0" text="Availability" />
+      <CheckBox layoutX="175.0" layoutY="438.0" mnemonicParsing="false" text="Ture" />
+      <CheckBox layoutX="277.0" layoutY="438.0" mnemonicParsing="false" text="False" />
+      <Button layoutX="71.0" layoutY="498.0" mnemonicParsing="false" onAction="#addPropertyConfirm" text="Confirm" />
+      <Button layoutX="233.0" layoutY="498.0" mnemonicParsing="false" onAction="#addProperty" text="Cancel" />
+      <TextField layoutX="175.0" layoutY="65.0" />
+      <TextField layoutX="175.0" layoutY="110.0" />
+      <TextField layoutX="175.0" layoutY="156.0" />
+      <TextField layoutX="175.0" layoutY="199.0" />
+      <TextField layoutX="175.0" layoutY="248.0" />
+      <TextField layoutX="175.0" layoutY="295.0" />
+      <TextField layoutX="175.0" layoutY="341.0" />
+      <TextField layoutX="175.0" layoutY="385.0" />
+   </children>
+</AnchorPane>

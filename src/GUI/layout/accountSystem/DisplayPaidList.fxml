@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.Controller">
+   <children>
+      <Label layoutX="46.0" layoutY="42.0" text="Diaplay paid list">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button layoutX="273.0" layoutY="322.0" mnemonicParsing="false" onAction="#accountSystem" text="OK" />
+   </children>
+</AnchorPane>

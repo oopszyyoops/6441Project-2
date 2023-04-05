@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="250.0" prefWidth="545.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.Controller">
+   <children>
+      <Button layoutX="238.0" layoutY="176.0" mnemonicParsing="false" onAction="#goBacktoMainMenu" text="OK" />
+      <Label layoutX="85.0" layoutY="59.0" text="Confirm:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="109.0" layoutY="101.0" text="The potential tenant has been added into the property." />
+   </children>
+</AnchorPane>

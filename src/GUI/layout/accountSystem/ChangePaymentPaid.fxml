@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="222.0" prefWidth="438.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.Controller">
+   <children>
+      <Label layoutX="46.0" layoutY="42.0" text="Change payment to paid">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="72.0" layoutY="85.0" text="Least ID:" />
+      <TextField layoutX="151.0" layoutY="81.0" />
+      <Button layoutX="92.0" layoutY="135.0" mnemonicParsing="false" onAction="#paidChangeConfirm" text="Confirm" />
+      <Button layoutX="245.0" layoutY="136.0" mnemonicParsing="false" onAction="#accountSystem" text="Cancel" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="160.0" prefWidth="423.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.Controller">
+   <children>
+      <Label layoutX="66.0" layoutY="49.0" text="Confirm:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="95.0" layoutY="82.0" text="The property has been added.">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button layoutX="309.0" layoutY="121.0" mnemonicParsing="false" onAction="#addProperty" text="OK" />
+   </children>
+</AnchorPane>

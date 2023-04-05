@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<GridPane alignment="center" hgap="10" prefHeight="495.0" prefWidth="409.0" vgap="10" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.Controller">
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <AnchorPane fx:id="mainMenu" prefHeight="459.0" prefWidth="599.0" />
+      <Pane prefHeight="495.0" prefWidth="599.0">
+         <children>
+            <Label layoutX="40.0" layoutY="41.0" text="Main Menu">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Button layoutX="40.0" layoutY="84.0" mnemonicParsing="false" onAction="#addProperty" text="1. Add a property" />
+            <Button layoutX="40.0" layoutY="120.0" mnemonicParsing="false" onAction="#addTenant" text="2. Add a tenant" />
+            <Button layoutX="40.0" layoutY="157.0" mnemonicParsing="false" onAction="#rentUnit" text="3. Rent a unit" />
+            <Button layoutX="40.0" layoutY="192.0" mnemonicParsing="false" onAction="#displayProperty" text="4. Display properties" />
+            <Button layoutX="40.0" layoutY="230.0" mnemonicParsing="false" onAction="#displayTenant" text="5. Display tenants" />
+            <Button layoutX="40.0" layoutY="264.0" mnemonicParsing="false" onAction="#displayRentedUnit" text="6. Display rental units" />
+            <Button layoutX="40.0" layoutY="302.0" mnemonicParsing="false" onAction="#displayVacantUnit" text="7. Display vacant units" />
+            <Button layoutX="40.0" layoutY="337.0" mnemonicParsing="false" onAction="#displayAllLease" text="8. Display all leases" />
+            <Button layoutX="40.0" layoutY="373.0" mnemonicParsing="false" onAction="#addPotentialTenant" text="9. Add a potential tenant to property" />
+            <Button layoutX="40.0" layoutY="406.0" mnemonicParsing="false" onAction="#enalbePropertyAvaliable" text="10. Enable property to ba available" />
+            <Button layoutX="40.0" layoutY="440.0" mnemonicParsing="false" onAction="#accountSystem" text="11. Account system" />
+         </children></Pane>
+
+   </children>
+</GridPane>
