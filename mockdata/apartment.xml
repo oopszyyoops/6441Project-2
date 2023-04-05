@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ApartmentInfo>
+    <Apartment id="A1">
+        <Street>Street ABC</Street>
+        <City>Montreal</City>
+        <Province>QC</Province>
+        <PostCode>H1G 1T6</PostCode>
+        <UnitNumber>1</UnitNumber>
+        <Bathroom>2</Bathroom>
+        <Bedroom>3</Bedroom>
+        <Square>125</Square>
+        <Available>true</Available>
+        <Tenants>
+            <TenantId>1</TenantId>
+            <TenantId>2</TenantId>
+            <TenantId>3</TenantId>
+        </Tenants>
+    </Apartment>
+    <Apartment id="A2">
+        <Street>street abc</Street>
+        <City>Montreal</City>
+        <Province>QC</Province>
+        <PostCode>H2G 3T8</PostCode>
+        <UnitNumber>288</UnitNumber>
+        <Bathroom>2</Bathroom>
+        <Bedroom>3</Bedroom>
+        <Square>150</Square>
+        <Available>false</Available>
+        <Tenants/>
+    </Apartment>
+<Apartment id="A3"><Street>streetName</Street><City>Montreal</City><Province>QC</Province><PostCode>H9S2C7</PostCode><UnitNumber>855</UnitNumber><Bathroom>2</Bathroom><Bedroom>2</Bedroom><Square>1000</Square><Available>true</Available><Tenants/></Apartment></ApartmentInfo>

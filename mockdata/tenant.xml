@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TenantInfo>
+<Tenant id="1">
+    <Name>Nick Lee</Name>
+    <Email>nick@gmail.com</Email>
+    <Phone>123456789</Phone>
+</Tenant>
+<Tenant id="2"><Name>Jaky Wong</Name><Email>jack@gmail.com</Email><Phone>456789123</Phone></Tenant>
+<Tenant id="3"><Name>Mike Yong</Name><Email>jack@gmail.com</Email><Phone>456789123</Phone></Tenant>
+<Tenant id="4"><Name>Yangliu</Name><Email>yangliu@gmail.com</Email><Phone>4389286809</Phone></Tenant></TenantInfo>

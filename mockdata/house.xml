@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<HouseInfo>
+    <House id="H1">
+        <StreetNumber>55</StreetNumber>
+        <Street>Ave ABD</Street>
+        <City>Montreal</City>
+        <Province>QC</Province>
+        <PostCode>H9C O5U</PostCode>
+        <Bathroom>2</Bathroom>
+        <Bedroom>5</Bedroom>
+        <Square>150</Square>
+        <Available>false</Available>
+        <Tenants/>
+    </House>
+    <House id="H2">
+        <StreetNumber>25</StreetNumber>
+        <Street>Ave CDE</Street>
+        <City>Montreal</City>
+        <Province>QC</Province>
+        <PostCode>H9A OGU</PostCode>
+        <Bathroom>3</Bathroom>
+        <Bedroom>6</Bedroom>
+        <Square>180</Square>
+        <Available>false</Available>
+        <Tenants><TenantId>2</TenantId></Tenants>
+    </House>
+</HouseInfo>

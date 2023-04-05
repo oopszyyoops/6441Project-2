@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CondoInfo>
+<Condo id="C1">
+    <StreetNumber>123</StreetNumber>
+    <Street>Street BC</Street>
+    <City>Montreal</City>
+    <Province>QC</Province>
+    <PostCode>H2B 1U5</PostCode>
+    <UnitNumber>852</UnitNumber>
+    <Bathroom>1</Bathroom>
+    <Bedroom>2</Bedroom>
+    <Square>100</Square>
+    <Available>false</Available>
+    <Tenants/>
+</Condo>
+    <Condo id="C2">
+        <StreetNumber>352</StreetNumber>
+        <Street>Street AC</Street>
+        <City>Montreal</City>
+        <Province>QC</Province>
+        <PostCode>H2B 1T5</PostCode>
+        <UnitNumber>256</UnitNumber>
+        <Bathroom>1</Bathroom>
+        <Bedroom>2</Bedroom>
+        <Square>90</Square>
+        <Available>true</Available>
+        <Tenants><TenantId>1</TenantId><TenantId>2</TenantId></Tenants>
+    </Condo>
+</CondoInfo>

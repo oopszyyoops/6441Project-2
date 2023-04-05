@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AccountingInfo>
+<Payment id="1"><leaseId>1</leaseId><tenantId>1</tenantId><tenantName>Nick Lee</tenantName><tenantEmail>nick@gmail.com</tenantEmail><propertyId>A2</propertyId><isPaid>Yes</isPaid></Payment>
+<Payment id="2"><leaseId>2</leaseId><tenantId>2</tenantId><tenantName>Jaky Wong</tenantName><tenantEmail>jack@gmail.com</tenantEmail><propertyId>C1</propertyId><isPaid>No</isPaid></Payment>
+    <Payment id="3"><leaseId>3</leaseId><tenantId>3</tenantId><tenantName>Mike Yong</tenantName><tenantEmail>jack@gmail.com</tenantEmail><propertyId>H1</propertyId><isPaid>No</isPaid></Payment>
+</AccountingInfo>
