@@ -1,0 +1,27 @@
+1 Add a property:
+1 Apartment
+streetName
+Montreal
+QC
+H9S2C7
+855
+2
+2
+1000
+1
+Return to main menu
+============================
+2 Add a tenant
+Yangliu
+yangliu@gmail.com
+4389286809
+============================
+3 Rent a unit
+3 - House
+H1
+3
+2023/05/01
+2023/06/01
+1250.45
+
+
