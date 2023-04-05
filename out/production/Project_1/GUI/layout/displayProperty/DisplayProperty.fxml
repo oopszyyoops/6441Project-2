@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="494.0" prefWidth="456.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.Controller">
+   <children>
+      <Label layoutX="50.0" layoutY="49.0" text="Display all properties">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="74.0" layoutY="97.0" text="******************Apartment*****************" />
+      <Label layoutX="71.0" layoutY="211.0" text="********************Condo********************" />
+      <Label layoutX="69.0" layoutY="305.0" text="*********************House********************" />
+      <Label layoutX="71.0" layoutY="388.0" text="************************************************" />
+      <Button layoutX="206.0" layoutY="441.0" mnemonicParsing="false" onAction="#goBacktoMainMenu" text="OK" />
+
+   </children>
+</AnchorPane>
