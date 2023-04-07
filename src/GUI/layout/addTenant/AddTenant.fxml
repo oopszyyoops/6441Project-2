@@ -6,9 +6,9 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="297.0" prefWidth="353.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.Controller">
+<AnchorPane prefHeight="297.0" prefWidth="353.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.layout.addTenant.addTenantController">
    <children>
-      <Label layoutX="48.0" layoutY="42.0" text="Add a Tenant">
+      <Label fx:id="addTenantLable" layoutX="48.0" layoutY="42.0" text="Add a Tenant">
          <font>
             <Font size="18.0" />
          </font>
@@ -16,10 +16,10 @@
       <Label layoutX="48.0" layoutY="83.0" text="Full name:" />
       <Label layoutX="48.0" layoutY="122.0" text="e-mail:" />
       <Label layoutX="48.0" layoutY="157.0" text="Phone number:" />
-      <Button layoutX="48.0" layoutY="200.0" mnemonicParsing="false" onAction="#addTenantConfirm" text="Confirm" />
-      <Button layoutX="174.0" layoutY="200.0" mnemonicParsing="false" onAction="#goBacktoMainMenu" text="Cancel" />
-      <TextField layoutX="143.0" layoutY="71.0" />
-      <TextField layoutX="143.0" layoutY="109.0" />
-      <TextField layoutX="143.0" layoutY="144.0" />
+      <Button layoutX="48.0" layoutY="200.0" mnemonicParsing="false" onAction="#confirm" text="Confirm" />
+      <Button layoutX="174.0" layoutY="200.0" mnemonicParsing="false" onAction="#cancel" text="Cancel" />
+      <TextField fx:id="fullName" layoutX="143.0" layoutY="71.0" />
+      <TextField fx:id="email" layoutX="143.0" layoutY="109.0" />
+      <TextField fx:id="phoneNumber" layoutX="143.0" layoutY="144.0" />
    </children>
 </AnchorPane>

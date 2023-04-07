@@ -11,11 +11,15 @@ import java.util.Objects;
 public class Main extends Application {
 
     @Override
-    public void start(Stage primaryStage) throws Exception{
-        Parent root = FXMLLoader.load(Objects.requireNonNull(getClass().getResource("layout/MainMenu.fxml")));
-        primaryStage.setTitle("Rental System");
-        primaryStage.setScene(new Scene(root, 300, 500));
-        primaryStage.show();
+    public void start(Stage primaryStage){
+        try {
+            Parent root = FXMLLoader.load(Objects.requireNonNull(getClass().getResource("layout/MainMenu.fxml")));
+            primaryStage.setTitle("Rental System");
+            primaryStage.setScene(new Scene(root, 300, 500));
+            primaryStage.show();
+        }catch(Exception e) {
+            e.printStackTrace();
+        }
 //        stage.setTitle("Renal System");
 //        VBox vbox = new VBox();
 //        Text text = new Text("Main Menu:");
@@ -47,6 +51,7 @@ public class Main extends Application {
 //        stage.setScene(scene);
 //        stage.show();
     }
+
 
 
     public static void main(String[] args) {

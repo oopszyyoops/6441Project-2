@@ -6,7 +6,7 @@
 <?import javafx.scene.text.Font?>
 
 
-<AnchorPane prefHeight="250.0" prefWidth="545.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.Controller">
+<AnchorPane prefHeight="250.0" prefWidth="545.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.layout.Controller">
    <children>
       <Button layoutX="238.0" layoutY="176.0" mnemonicParsing="false" onAction="#goBacktoMainMenu" text="OK" />
       <Label layoutX="85.0" layoutY="59.0" text="Confirm:">

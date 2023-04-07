@@ -1,12 +1,14 @@
-package GUI;
+package GUI.layout;
 
 import javafx.event.ActionEvent;
+import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Node;
 import javafx.scene.Parent;
-import javafx.stage.Stage;
 import javafx.scene.Scene;
+import javafx.stage.Stage;
 
+import java.awt.*;
 import java.io.IOException;
 
 public class Controller {
@@ -26,6 +28,25 @@ public class Controller {
         stage.setScene(scene);
         stage.show();
     }
+    ///////////////////////////////////////////add apartment///////////////////////////////////////////////////////////
+    @FXML
+    private Label addApLable;
+    @FXML
+    private TextField strName;
+    @FXML
+    private TextField city;
+    @FXML
+    private TextField province;
+    @FXML
+    private TextField postCode;
+    @FXML
+    private TextField unitNum;
+    @FXML
+    private TextField bathroomNum;
+    @FXML
+    private TextField bedroomNum;
+    @FXML
+    private TextField sqFootage;
     public void addApartment(ActionEvent event) throws IOException{
         Parent root = FXMLLoader.load(getClass().getResource("layout/addProperty/AddApartment.fxml"));
         Stage stage = (Stage)((Node)event.getSource()).getScene().getWindow();
