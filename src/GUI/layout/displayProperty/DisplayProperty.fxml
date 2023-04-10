@@ -2,21 +2,19 @@
 
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="494.0" prefWidth="456.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.layout.Controller">
+<AnchorPane prefHeight="494.0" prefWidth="456.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.layout.displayProperty.displayPropController">
    <children>
       <Label layoutX="50.0" layoutY="49.0" text="Display all properties">
          <font>
             <Font size="18.0" />
          </font>
       </Label>
-      <Label layoutX="74.0" layoutY="97.0" text="******************Apartment*****************" />
-      <Label layoutX="71.0" layoutY="211.0" text="********************Condo********************" />
-      <Label layoutX="69.0" layoutY="305.0" text="*********************House********************" />
-      <Label layoutX="71.0" layoutY="388.0" text="************************************************" />
-      <Button layoutX="206.0" layoutY="441.0" mnemonicParsing="false" onAction="#goBacktoMainMenu" text="OK" />
+      <TextArea fx:id="textArea" layoutX="67.0" layoutY="79.0" prefHeight="337.0" prefWidth="332.0" />
+      <Button layoutX="201.0" layoutY="439.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="64.0" text="OK" />
 
    </children>
 </AnchorPane>

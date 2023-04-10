@@ -5,8 +5,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-
-<AnchorPane prefHeight="287.0" prefWidth="307.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.layout.Controller">
+<AnchorPane prefHeight="287.0" prefWidth="307.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.layout.rentUnit.rentUnitController">
    <children>
       <Label layoutX="53.0" layoutY="40.0" text="Rent Unit">
          <font>
@@ -16,6 +15,6 @@
       <Button layoutX="53.0" layoutY="83.0" mnemonicParsing="false" onAction="#rentApartment" text="1. Apartment" />
       <Button layoutX="53.0" layoutY="124.0" mnemonicParsing="false" onAction="#rentCondo" text="2. Condo" />
       <Button layoutX="53.0" layoutY="164.0" mnemonicParsing="false" onAction="#rentHouse" text="3. House" />
-      <Button layoutX="192.0" layoutY="216.0" mnemonicParsing="false" onAction="#goBacktoMainMenu" text="Cancel" />
+      <Button layoutX="192.0" layoutY="216.0" mnemonicParsing="false" onAction="#cancel" text="Cancel" />
    </children>
 </AnchorPane>
